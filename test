@@ -1,0 +1,18 @@
+read(i); while(i) do write(i); read(j); if(j) then write(j); read(k); if(k) then write(k); endif; else a=111; write(a); endif; i = i - 1; endwhile;
+
+read(i); 
+while(i) do 
+	write(i); 
+	read(j);
+	if(j) then 
+		write(j); 
+		read(k); 
+		if(k) then 
+			write(k); 
+		endif; 
+	else
+		a=111; 
+		write(a);
+	endif; 
+	i =i -1;
+endwhile;
